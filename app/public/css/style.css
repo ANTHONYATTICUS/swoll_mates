@@ -1,0 +1,33 @@
+body {
+    width: 75%;
+   margin: 0px auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+header {
+    height: 100px;
+}
+
+header > nav {
+    height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#brand {
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.panel{
+   margin: 50px;
+}
+
+#content {
+    margin: 50px;
+}
