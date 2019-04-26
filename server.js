@@ -21,5 +21,5 @@ require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
 
 // Start listening on PORT
 app.listen(PORT, function() {
-  console.log('Gym app is listening on PORT: ' + PORT);
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
