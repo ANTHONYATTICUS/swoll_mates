@@ -1,4 +1,4 @@
-var friendsArray = [
+var partnerArray = [
 	{
 		name: 'Anthony Atticus',
 		photo: 'https://i2-prod.mirror.co.uk/incoming/article7961698.ece/ALTERNATES/s615b/PROD-Overweight-man-with-fat-stomach.jpgd',
@@ -161,4 +161,4 @@ var friendsArray = [
 	}
 ];
 
-module.exports = friendsArray;
+module.exports = partnerArray;
